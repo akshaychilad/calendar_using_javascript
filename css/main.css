@@ -1,0 +1,47 @@
+#calendar{
+    width:308px;
+    /* height:265px; */
+    margin:0px auto;
+    /* border: 1px solid orangered; */
+    min-height: 200px;
+    margin-top: 50px;   
+
+}
+
+#calendar ul li{
+    width:40px;
+    height:28px;
+    text-align: center;
+    border: 1px solid black;
+    margin-right: 2px;
+    margin-bottom : 2px;
+    float:left;
+    padding-top: 10px;
+}
+#calendar ul.name li{
+    border: 1px solid darkblue;
+}
+
+
+#calendar ul.days li.active{
+ 
+    background-color: green;
+}
+
+.forms{
+    margin: 0px auto;
+    padding: 10px;
+    margin-top:30px;
+    margin-left:650px;
+    margin-right: 600px;
+    border:1px solid blue; 
+}
+h2{
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    
+}
